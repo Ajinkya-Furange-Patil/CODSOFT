@@ -407,7 +407,7 @@ Every project features:
 - **GitHub Profile:** [github.com/Ajinkya-Furange-Patil](https://github.com/Ajinkya-Furange-Patil)
 
 ### 📧 Contact
-- **Email:** furangeaditya@gmail.com
+- **Email:** ajinkyafurange@zohomail.in
 - **Phone:** +91 8108171769
 - **Location:** Virar, Maharashtra, India
 
@@ -618,16 +618,6 @@ Thank you for exploring this repository. If this work helps your learning, inspi
 
 ---
 
-## 🙏 Gratitude
-
-Special thanks to:
-- **Cognifyz Technologies** - For the incredible internship opportunity
-- **Vidyavardhini Bhausaheb Vartak Polytechnic** - For education & support
-- **E-Cell ApexVentures** - For platform & collaboration
-- **My mentors & peers** - For feedback & encouragement
-- **YOU** - For reading this far! 🎊
-
----
 
 **Built with ❤️, endless ☕ and unwavering curiosity!**
 
