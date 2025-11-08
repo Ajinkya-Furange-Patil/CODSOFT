@@ -26,7 +26,8 @@
 ### Single File Solution:
 
 ```
-✅ calculator.html        - Complete standalone application
+✅ index.html            - Main UI
+✅ style.css             - Styling of Calculator
 📚 README.md             - This documentation
 ```
 
