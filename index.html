@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODSOFT Internship - Ajinkya Furange</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons 🌟 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ================= HEADER with NAVBAR ================= -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">CODSOFT<span class="dot">•</span>Internship</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#offer">Offer Letter</a></li>
+          <li><a href="#gallery">Projects</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- =============== 1. INTRO SECTION ==================== -->
+    <section class="intro" id="intro">
+      <div class="container">
+        <h1>Welcome to My CODSOFT Internship Journey! 🚀</h1>
+        <p>
+          Hi, I'm <b>Ajinkya Furange</b>. Explore the highlights, real projects,
+          and skills gained during my internship at <b>CODSOFT</b>. Passionate
+          about web development, always learning, always building!
+        </p>
+      </div>
+    </section>
+
+    <!-- =============== 2. OFFER LETTER SECTION ============= -->
+    <section class="offer" id="offer">
+      <div class="container offer-flex">
+        <div class="offer-img">
+          <!-- Optional: Replace src with actual offer letter image -->
+          <img src="offer-letter.jpg" alt="Internship Offer Letter" />
+        </div>
+        <div class="offer-description">
+          <h2>Internship Offer Letter</h2>
+          <p>
+            Here’s my official offer letter from CODSOFT – where my journey in
+            professional web development began. <br />
+            <a href="offer-letter.pdf" class="btn" download
+              >Download Offer Letter <i class="fas fa-download"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== 3. PROJECT GALLERY SECTION ========== -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2>Project Gallery</h2>
+        <div class="projects-grid">
+          <!-- Portfolio Card -->
+          <div class="project-card">
+            <img src="portfolio-preview.jpg" alt="Portfolio Project" />
+            <h3>Portfolio Website</h3>
+            <p>
+              Showcasing my developer journey, achievements, and skills in a
+              modern responsive site.
+            </p>
+            <a href="portfolio/index.html" class="project-link" target="_blank"
+              >View Project</a
+            >
+          </div>
+          <!-- Landing Page Card -->
+          <div class="project-card">
+            <img src="landing-preview.jpg" alt="Landing Page" />
+            <h3>Landing Page</h3>
+            <p>
+              Creative, conversion-focused one-page website design using HTML &
+              CSS magic.
+            </p>
+            <a
+              href="landing-page/index.html"
+              class="project-link"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+          <!-- Calculator Card -->
+          <div class="project-card">
+            <img src="calculator-preview.jpg" alt="Calculator Project" />
+            <h3>Calculator App</h3>
+            <p>
+              Intuitive, stylish calculator built with JavaScript, pleasing UI,
+              and human-friendly UX.
+            </p>
+            <a href="calculator/index.html" class="project-link" target="_blank"
+              >Try Calculator</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== 4. INTERNSHIP DETAILS SECTION ======= -->
+    <section class="details" id="details">
+      <div class="container">
+        <h2>Internship Details & Highlights</h2>
+        <ul class="internship-list">
+          <li><b>Company:</b> CODSOFT</li>
+          <li><b>Duration:</b> October - November 2025 (2 months)</li>
+          <li><b>Role:</b> Web Developer Intern</li>
+          <li><b>Mentor:</b> [Mentor Name]</li>
+          <li><b>Main Skills:</b> HTML5, CSS3, JavaScript</li>
+          <li>
+            <b>Projects Developed:</b> Portfolio, Landing Page, Calculator
+          </li>
+          <li>
+            <b>Techniques Practiced:</b> Responsive design, CSS grid/flexbox,
+            accessibility, code commenting, documentation
+          </li>
+          <li>
+            <b>What I Learned:</b> Real-world coding, best practices, project
+            documentation, collaborative workflow, and deploying live projects
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =============== 5. FOOTER SECTION =================== -->
+    <footer id="contact">
+      <div class="footer-content">
+        <p>&copy; 2025 Ajinkya Furange • CODSOFT Internship</p>
+        <div class="footer-links">
+          <a href="mailto:furangeaditya@gmail.com" target="_blank"
+            ><i class="fas fa-envelope"></i> Email</a
+          >
+          <a href="https://linkedin.com/in/ajinkya-furange" target="_blank"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/Ajinkya-Furange-Patil" target="_blank"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- =============== JAVASCRIPT FOR RESPONSIVE NAV ======= -->
+    <script>
+      // Hamburger menu toggle
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      });
+      // Close menu on link click
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          hamburger.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
