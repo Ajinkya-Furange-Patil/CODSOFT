@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MathMagic Calculator ✨</title>
+  </head>
+  <body>
+    <div class="calculator-wrapper">
+      <div class="header">
+        <h1>MathMagic ✨</h1>
+        <p class="subtitle">Where Numbers Meet Magic</p>
+      </div>
+
+      <div class="calculator">
+        <div class="display-container">
+          <div class="previous-display" id="previousDisplay"></div>
+          <div class="current-display" id="currentDisplay">0</div>
+          <div class="status-indicator" id="statusIndicator"></div>
+        </div>
+
+        <div class="buttons-container">
+          <button class="btn btn-clear" id="clearBtn">AC</button>
+          <button class="btn btn-delete" id="deleteBtn">DEL</button>
+          <button class="btn btn-bonus" id="percentBtn">%</button>
+          <button class="btn btn-operator" data-operator="÷">÷</button>
+
+          <button class="btn btn-number" data-number="7">7</button>
+          <button class="btn btn-number" data-number="8">8</button>
+          <button class="btn btn-number" data-number="9">9</button>
+          <button class="btn btn-operator" data-operator="×">×</button>
+
+          <button class="btn btn-number" data-number="4">4</button>
+          <button class="btn btn-number" data-number="5">5</button>
+          <button class="btn btn-number" data-number="6">6</button>
+          <button class="btn btn-operator" data-operator="-">−</button>
+
+          <button class="btn btn-number" data-number="1">1</button>
+          <button class="btn btn-number" data-number="2">2</button>
+          <button class="btn btn-number" data-number="3">3</button>
+          <button class="btn btn-operator" data-operator="+">+</button>
+
+          <button class="btn btn-bonus" id="toggleSignBtn">±</button>
+          <button class="btn btn-number" data-number="0">0</button>
+          <button class="btn btn-decimal" data-decimal=".">.</button>
+          <button class="btn btn-equals" id="equalsBtn">=</button>
+        </div>
+
+        <div class="history-container" id="historyContainer">
+          <div class="history-header">
+            <h3>History</h3>
+            <button class="history-clear-btn" id="historyClearBtn">
+              Clear
+            </button>
+          </div>
+          <div class="history-list" id="historyList"></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>Made with passion and precision ✨</p>
+      </div>
+    </div>
+
+    <script>
+      class MathMagicCalculator {
+        constructor() {
+          this.previousValue = "";
+          this.currentValue = "0";
+          this.operation = null;
+          this.shouldResetDisplay = false;
+          this.history = [];
+          this.maxHistoryItems = 10;
+
+          this.currentDisplay = document.getElementById("currentDisplay");
+          this.previousDisplay = document.getElementById("previousDisplay");
+          this.statusIndicator = document.getElementById("statusIndicator");
+          this.historyList = document.getElementById("historyList");
+
+          this.initializeEventListeners();
+          this.loadHistory();
+        }
+
+        initializeEventListeners() {
+          document.querySelectorAll(".btn-number").forEach((btn) => {
+            btn.addEventListener("click", (e) => {
+              this.handleNumberInput(e.target.dataset.number);
+            });
+          });
+
+          document.querySelectorAll(".btn-operator").forEach((btn) => {
+            btn.addEventListener("click", (e) => {
+              this.handleOperator(e.target.dataset.operator);
+            });
+          });
+
+          document
+            .querySelector(".btn-decimal")
+            .addEventListener("click", () => {
+              this.handleDecimal();
+            });
+
+          document.getElementById("equalsBtn").addEventListener("click", () => {
+            this.handleEquals();
+          });
+
+          document.getElementById("clearBtn").addEventListener("click", () => {
+            this.clear();
+          });
+
+          document.getElementById("deleteBtn").addEventListener("click", () => {
+            this.delete();
+          });
+
+          document
+            .getElementById("percentBtn")
+            .addEventListener("click", () => {
+              this.handlePercentage();
+            });
+
+          document
+            .getElementById("toggleSignBtn")
+            .addEventListener("click", () => {
+              this.toggleSign();
+            });
+
+          document
+            .getElementById("historyClearBtn")
+            .addEventListener("click", () => {
+              this.clearHistory();
+            });
+
+          document.addEventListener("keydown", (e) => {
+            this.handleKeyboard(e);
+          });
+        }
+
+        handleNumberInput(number) {
+          if (this.shouldResetDisplay) {
+            this.currentValue = number;
+            this.shouldResetDisplay = false;
+          } else {
+            this.currentValue =
+              this.currentValue === "0" ? number : this.currentValue + number;
+          }
+          this.updateDisplay();
+        }
+
+        handleOperator(op) {
+          if (this.currentValue === "") return;
+
+          if (this.operation && !this.shouldResetDisplay) {
+            this.handleEquals(op);
+            return;
+          }
+
+          this.previousValue = this.currentValue;
+          this.operation = op;
+          this.shouldResetDisplay = true;
+          this.updateDisplay();
+        }
+
+        handleEquals(nextOperator = null) {
+          if (!this.operation || this.previousValue === "") return;
+
+          const prev = parseFloat(this.previousValue);
+          const current = parseFloat(this.currentValue);
+          let result;
+
+          switch (this.operation) {
+            case "+":
+              result = prev + current;
+              break;
+            case "-":
+              result = prev - current;
+              break;
+            case "×":
+              result = prev * current;
+              break;
+            case "÷":
+              if (current === 0) {
+                this.showStatus("Cannot divide by zero");
+                this.currentValue = "Error";
+                this.updateDisplay();
+                return;
+              }
+              result = prev / current;
+              break;
+            default:
+              return;
+          }
+
+          result = parseFloat(result.toFixed(10));
+          this.addToHistory(`${prev} ${this.operation} ${current} = ${result}`);
+
+          this.previousValue = result;
+          this.currentValue = result.toString();
+          this.operation = null;
+          this.shouldResetDisplay = true;
+          this.updateDisplay();
+          this.showStatus("Calculated!");
+
+          if (nextOperator) {
+            this.handleOperator(nextOperator);
+          }
+        }
+
+        handleDecimal() {
+          if (this.currentValue.includes(".")) return;
+          this.currentValue += ".";
+          this.updateDisplay();
+        }
+
+        delete() {
+          if (this.currentValue.length > 1) {
+            this.currentValue = this.currentValue.slice(0, -1);
+          } else {
+            this.currentValue = "0";
+          }
+          this.updateDisplay();
+        }
+
+        clear() {
+          this.previousValue = "";
+          this.currentValue = "0";
+          this.operation = null;
+          this.shouldResetDisplay = false;
+          this.showStatus("Cleared");
+          this.updateDisplay();
+        }
+
+        handlePercentage() {
+          const num = parseFloat(this.currentValue);
+          if (isNaN(num)) return;
+          this.currentValue = (num / 100).toString();
+          this.updateDisplay();
+        }
+
+        toggleSign() {
+          const num = parseFloat(this.currentValue);
+          if (isNaN(num)) return;
+          this.currentValue = (num * -1).toString();
+          this.updateDisplay();
+        }
+
+        updateDisplay() {
+          this.currentDisplay.textContent = this.formatDisplay(
+            this.currentValue
+          );
+
+          if (this.operation) {
+            this.previousDisplay.textContent = `${this.formatDisplay(
+              this.previousValue
+            )} ${this.operation}`;
+          } else {
+            this.previousDisplay.textContent = "";
+          }
+        }
+
+        formatDisplay(value) {
+          if (value === "Error") return "Error";
+          const num = parseFloat(value);
+          if (isNaN(num)) return value;
+          return num.toLocaleString("en-US", { maximumFractionDigits: 10 });
+        }
+
+        showStatus(message) {
+          this.statusIndicator.textContent = message;
+          setTimeout(() => {
+            this.statusIndicator.textContent = "";
+          }, 2000);
+        }
+
+        addToHistory(calculation) {
+          this.history.unshift(calculation);
+          if (this.history.length > this.maxHistoryItems) {
+            this.history.pop();
+          }
+          this.saveHistory();
+          this.updateHistoryDisplay();
+        }
+
+        updateHistoryDisplay() {
+          this.historyList.innerHTML = "";
+          this.history.forEach((item, index) => {
+            const historyItem = document.createElement("div");
+            historyItem.className = "history-item";
+            historyItem.innerHTML = `
+                        <span>${item}</span>
+                        <button class="history-copy-btn" onclick="calculator.copyToDisplay('${item}')">Copy</button>
+                    `;
+            this.historyList.appendChild(historyItem);
+          });
+        }
+
+        saveHistory() {
+          try {
+            const state = { history: this.history };
+            sessionStorage.setItem("calculatorHistory", JSON.stringify(state));
+          } catch (e) {
+            console.log("Could not save history");
+          }
+        }
+
+        loadHistory() {
+          try {
+            const saved = sessionStorage.getItem("calculatorHistory");
+            if (saved) {
+              const state = JSON.parse(saved);
+              this.history = state.history || [];
+              this.updateHistoryDisplay();
+            }
+          } catch (e) {
+            console.log("Could not load history");
+          }
+        }
+
+        clearHistory() {
+          this.history = [];
+          this.saveHistory();
+          this.updateHistoryDisplay();
+          this.showStatus("History cleared");
+        }
+
+        copyToDisplay(calculation) {
+          const result = calculation.split("=")[1].trim();
+          this.currentValue = result;
+          this.operation = null;
+          this.previousValue = "";
+          this.shouldResetDisplay = true;
+          this.updateDisplay();
+          this.showStatus("Copied!");
+        }
+
+        handleKeyboard(e) {
+          if (e.key >= "0" && e.key <= "9") {
+            this.handleNumberInput(e.key);
+          } else if (e.key === "+") {
+            e.preventDefault();
+            this.handleOperator("+");
+          } else if (e.key === "-") {
+            e.preventDefault();
+            this.handleOperator("-");
+          } else if (e.key === "*") {
+            e.preventDefault();
+            this.handleOperator("×");
+          } else if (e.key === "/") {
+            e.preventDefault();
+            this.handleOperator("÷");
+          } else if (e.key === "Enter" || e.key === "=") {
+            e.preventDefault();
+            this.handleEquals();
+          } else if (e.key === ".") {
+            e.preventDefault();
+            this.handleDecimal();
+          } else if (e.key === "Backspace") {
+            e.preventDefault();
+            this.delete();
+          } else if (e.key === "Escape") {
+            e.preventDefault();
+            this.clear();
+          }
+        }
+      }
+
+      let calculator;
+      document.addEventListener("DOMContentLoaded", () => {
+        calculator = new MathMagicCalculator();
+        calculator.showStatus("Ready to calculate");
+      });
+    </script>
+  </body>
+</html>
