@@ -178,9 +178,9 @@ All projects are **deployed and live** on Netlify:
 
 | Project                | Live Link                                                               | GitHub                                                    |
 | ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------- |
-| **Portfolio**          | [View Live](https://codsoft-ajinkya.netlify.app/task 1/)          | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/Task 1) |
-| **Landing Page**       | [View Live](https://codsoft-ajinkya.netlify.app/task 2/)            | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/Task 2) |
-| **Calculator**         | [View Live](https://codsoft-ajinkya.netlify.app/task 3/)         | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/Task 3) |
+| **Portfolio**          | [View Live](https://codsoft-ajinkya.netlify.app/task%201/)          | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/task%201) |
+| **Landing Page**       | [View Live](https://codsoft-ajinkya.netlify.app/task%202/)            | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/task%202) |
+| **Calculator**         | [View Live](https://codsoft-ajinkya.netlify.app/task%203/)         | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/task%203) |
 
 ---
 
