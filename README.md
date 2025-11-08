@@ -641,7 +641,7 @@ I'm always eager to:
 
 **Feel free to reach out:**
 
-- **Email:** furangeaditya@gmail.com
+- **Email:** ajinkyafurange@zohomail.in
 - **LinkedIn:** [Ajinkya Furange](https://www.linkedin.com/in/ajinkya-furange)
 - **GitHub:** [@Ajinkya-Furange-Patil](https://github.com/Ajinkya-Furange-Patil)
 - **Phone:** +91 8108171769
