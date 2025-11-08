@@ -402,7 +402,7 @@ Every project features:
 - **Role:** Web Development Intern
 
 ### 🌐 Live Projects
-- **Main Portfolio:** [https://internship-projects.netlify.app/](https://internship-projects.netlify.app/)
+- **Main Portfolio:** [https://ajinkyafurange.netlify.app/](https://ajinkyafurange.netlify.app/)
 - **My Profile:** [LinkedIn](https://www.linkedin.com/in/ajinkya-furange)
 - **GitHub Profile:** [github.com/Ajinkya-Furange-Patil](https://github.com/Ajinkya-Furange-Patil)
 
