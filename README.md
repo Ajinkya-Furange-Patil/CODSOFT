@@ -62,7 +62,7 @@ A stunning landing page for a tech company featuring:
 **Technologies:** HTML5 | CSS3 | JavaScript | Font Awesome | Responsive Design
 **Key Concepts:** CSS Grid | Animations | Glassmorphism | Form Handling | Scroll Reveal
 
-**Deployed:** [Live Landing Page](https://codsoft-ajinkya.netlify.app/task 2)
+**Deployed:** [Live Landing Page](https://codsoft-ajinkya.netlify.app/task%202)
 
 ---
 
@@ -84,7 +84,7 @@ A fully-featured calculator with modern design:
 **Technologies:** HTML5 | CSS3 | JavaScript | Object-Oriented Programming | LocalStorage
 **Key Concepts:** Event Listeners | Switch Statements | Array Methods | DOM Manipulation | CSS Grid
 
-**Deployed:** [Live Calculator](https://codsoft-ajinkya.netlify.app/task 3/)
+**Deployed:** [Live Calculator](https://codsoft-ajinkya.netlify.app/task%203/)
 
 ---
 
