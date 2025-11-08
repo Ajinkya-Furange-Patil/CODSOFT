@@ -1,4 +1,5 @@
 # 🚀 CODSOFT Internship - Complete Project Repository
+
 - **Live Preview:** [CodSoft Internship](https://codsoft-ajinkya.netlify.app/)
 
 > **A Comprehensive Collection of Web Development Projects** | Built with Curiosity, Creativity and Endless ☕
@@ -23,9 +24,11 @@ This is the complete **CODSOFT Internship Project Repository** showcasing a comp
 This repository contains **4 Major Web Development Projects** that form the cornerstone of the internship experience:
 
 ### 1️⃣ **Personal Portfolio Website** 👨‍💻
+
 **Status:** ✅ Complete | **Difficulty:** Beginner | **Time:** 2-3 hours
 
 Your professional showcase website featuring:
+
 - Responsive navigation with hamburger menu
 - Hero section with compelling tagline
 - Skills showcase (8 categories)
@@ -37,14 +40,16 @@ Your professional showcase website featuring:
 **Technologies:** HTML5 | CSS3 | JavaScript | Font Awesome
 **Key Concepts:** Responsive Design | CSS Grid/Flexbox | Smooth Scrolling | Mobile Optimization
 
-**Deployed:** [Live Portfolio](https://internship-projects.netlify.app/portfolio)
+**Deployed:** [Live Portfolio](https://codsoft-ajinkya.netlify.app/task 1)
 
 ---
 
 ### 2️⃣ **Modern Landing Page** 🎯
+
 **Status:** ✅ Complete | **Difficulty:** Beginner | **Time:** 3-4 hours
 
 A stunning landing page for a tech company featuring:
+
 - Sticky navigation bar
 - Full-screen hero section
 - 6 feature cards with hover effects
@@ -57,14 +62,16 @@ A stunning landing page for a tech company featuring:
 **Technologies:** HTML5 | CSS3 | JavaScript | Font Awesome | Responsive Design
 **Key Concepts:** CSS Grid | Animations | Glassmorphism | Form Handling | Scroll Reveal
 
-**Deployed:** [Live Landing Page](https://internship-projects.netlify.app/landing)
+**Deployed:** [Live Landing Page](https://codsoft-ajinkya.netlify.app/task 2)
 
 ---
 
 ### 3️⃣ **Interactive Calculator** 🧮
+
 **Status:** ✅ Complete | **Difficulty:** Intermediate | **Time:** 4-5 hours
 
 A fully-featured calculator with modern design:
+
 - Basic operations (+, −, ×, ÷)
 - Advanced features (%, +/−)
 - Calculation history with persistence
@@ -77,28 +84,7 @@ A fully-featured calculator with modern design:
 **Technologies:** HTML5 | CSS3 | JavaScript | Object-Oriented Programming | LocalStorage
 **Key Concepts:** Event Listeners | Switch Statements | Array Methods | DOM Manipulation | CSS Grid
 
-**Deployed:** [Live Calculator](https://internship-projects.netlify.app/calculator)
-
----
-
-### 4️⃣ **Professional Portfolio (Enhanced)** 🏆
-**Status:** ✅ Complete | **Difficulty:** Beginner-Intermediate | **Time:** 3-4 hours
-
-Your comprehensive professional portfolio featuring:
-- Beautiful gradient header
-- About section with bio
-- Complete skills inventory
-- 6 featured projects with descriptions
-- Certifications showcase (5+ certifications)
-- Contact information
-- Social media links
-- Professional footer
-- Fully responsive
-
-**Technologies:** HTML5 | CSS3 | Responsive Design | Modern CSS Patterns
-**Key Concepts:** Semantic HTML | CSS Variables | Responsive Layouts | Professional Design
-
-**Deployed:** [Live Portfolio](https://internship-projects.netlify.app/portfolio-enhanced)
+**Deployed:** [Live Calculator](https://codsoft-ajinkya.netlify.app/task 3/)
 
 ---
 
@@ -135,7 +121,7 @@ CODSOFT/
 │   └── images/                        # Portfolio images
 │
 ├── LIVE-DEMOS/                        # All projects deployed
-│   └── https://internship-projects.netlify.app/
+│   └── https://codsoft-ajinkya.netlify.app
 │
 └── DOCUMENTATION/
     ├── Setup-Guide.md
@@ -149,6 +135,7 @@ CODSOFT/
 ## 🌟 Key Features Across All Projects
 
 ### Design Excellence ✨
+
 - Modern gradient backgrounds
 - Smooth animations & transitions
 - Glassmorphism effects
@@ -157,6 +144,7 @@ CODSOFT/
 - Clean typography
 
 ### Code Quality 💎
+
 - Well-commented code
 - Humanized comments (with emojis!)
 - Semantic HTML structure
@@ -165,6 +153,7 @@ CODSOFT/
 - Error handling
 
 ### User Experience 🎯
+
 - Intuitive interfaces
 - Clear visual hierarchy
 - Responsive feedback
@@ -173,6 +162,7 @@ CODSOFT/
 - Fast performance
 
 ### Documentation 📚
+
 - Detailed README files
 - Setup instructions
 - Feature explanations
@@ -186,41 +176,43 @@ CODSOFT/
 
 All projects are **deployed and live** on Netlify:
 
-| Project | Live Link | GitHub |
-|---------|-----------|--------|
-| **Portfolio** | [View Live](https://internship-projects.netlify.app/portfolio) | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/) |
-| **Landing Page** | [View Live](https://internship-projects.netlify.app/landing) | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/) |
-| **Calculator** | [View Live](https://internship-projects.netlify.app/calculator) | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/) |
-| **Enhanced Portfolio** | [View Live](https://internship-projects.netlify.app/portfolio-enhanced) | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/) |
+| Project                | Live Link                                                               | GitHub                                                    |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------- |
+| **Portfolio**          | [View Live](https://codsoft-ajinkya.netlify.app/task 1/)          | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/Task 1) |
+| **Landing Page**       | [View Live](https://codsoft-ajinkya.netlify.app/task 2/)            | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/Task 2) |
+| **Calculator**         | [View Live](https://codsoft-ajinkya.netlify.app/task 3/)         | [Repo](https://github.com/Ajinkya-Furange-Patil/CODSOFT/tree/main/Task 3) |
 
 ---
 
 ## 💻 Technologies Used
 
 ### Frontend Stack
-| Technology | Usage | Proficiency |
-|-----------|-------|------------|
-| **HTML5** | Semantic structure | ⭐⭐⭐⭐⭐ |
-| **CSS3** | Styling & animations | ⭐⭐⭐⭐⭐ |
-| **JavaScript** | Interactivity & logic | ⭐⭐⭐⭐⭐ |
-| **Responsive Design** | Mobile-first approach | ⭐⭐⭐⭐⭐ |
-| **Font Awesome** | Icons | ⭐⭐⭐⭐ |
-| **LocalStorage** | Data persistence | ⭐⭐⭐⭐ |
+
+| Technology            | Usage                 | Proficiency |
+| --------------------- | --------------------- | ----------- |
+| **HTML5**             | Semantic structure    | ⭐⭐⭐⭐⭐  |
+| **CSS3**              | Styling & animations  | ⭐⭐⭐⭐⭐  |
+| **JavaScript**        | Interactivity & logic | ⭐⭐⭐⭐⭐  |
+| **Responsive Design** | Mobile-first approach | ⭐⭐⭐⭐⭐  |
+| **Font Awesome**      | Icons                 | ⭐⭐⭐⭐    |
+| **LocalStorage**      | Data persistence      | ⭐⭐⭐⭐    |
 
 ### Tools & Platforms
-| Tool | Purpose |
-|------|---------|
-| **VS Code** | Code editor |
-| **Git/GitHub** | Version control |
-| **Netlify** | Deployment |
-| **Chrome DevTools** | Debugging |
-| **Figma** | Design reference |
+
+| Tool                | Purpose          |
+| ------------------- | ---------------- |
+| **VS Code**         | Code editor      |
+| **Git/GitHub**      | Version control  |
+| **Netlify**         | Deployment       |
+| **Chrome DevTools** | Debugging        |
+| **Figma**           | Design reference |
 
 ---
 
 ## 🎓 Learning Objectives Achieved
 
 ### HTML5 Concepts ✅
+
 - Semantic HTML structure
 - Proper form elements
 - Data attributes
@@ -228,6 +220,7 @@ All projects are **deployed and live** on Netlify:
 - Mobile viewport configuration
 
 ### CSS3 Mastery ✅
+
 - CSS Grid layouts (Perfect button arrangement!)
 - Flexbox techniques (Centering & alignment)
 - CSS variables (Easy customization)
@@ -237,6 +230,7 @@ All projects are **deployed and live** on Netlify:
 - Pseudo-classes & elements (:hover, ::after, etc.)
 
 ### JavaScript Skills ✅
+
 - Object-Oriented Programming (Classes & methods)
 - Event listeners & handlers
 - DOM manipulation
@@ -249,6 +243,7 @@ All projects are **deployed and live** on Netlify:
 - Keyboard event handling
 
 ### Web Development Patterns ✅
+
 - Responsive design principles
 - Mobile-first approach
 - Progressive enhancement
@@ -264,12 +259,14 @@ All projects are **deployed and live** on Netlify:
 ### Quick Setup (5 Minutes)
 
 #### Clone the Repository
+
 ```bash
 git clone https://github.com/Ajinkya-Furange-Patil/CODSOFT.git
 cd CODSOFT
 ```
 
 #### View Individual Projects
+
 ```bash
 # Navigate to any project folder
 cd 01-Portfolio
@@ -283,7 +280,8 @@ open index.html
 ```
 
 #### Alternative: View Live Versions
-Simply visit [internship-projects.netlify.app](https://internship-projects.netlify.app/) to see all projects live!
+
+Simply visit [codsoft-ajinkya.netlify.app/](https://codsoft-ajinkya.netlify.app/) to see all projects live!
 
 ---
 
@@ -292,6 +290,7 @@ Simply visit [internship-projects.netlify.app](https://internship-projects.netli
 ### 🎨 Design Patterns
 
 **Glassmorphism**
+
 ```css
 background: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(10px);
@@ -299,6 +298,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 ```
 
 **CSS Grid for Perfect Layout**
+
 ```css
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -306,69 +306,88 @@ gap: 20px;
 ```
 
 **Smooth Animations**
+
 ```css
 @keyframes slideIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 ```
 
 ### 🔧 JavaScript Patterns
 
 **Class-Based OOP**
+
 ```javascript
 class Calculator {
-    constructor() { /* Initialize */ }
-    handleNumberInput(number) { /* Logic */ }
-    handleEquals() { /* Calculate */ }
+  constructor() {
+    /* Initialize */
+  }
+  handleNumberInput(number) {
+    /* Logic */
+  }
+  handleEquals() {
+    /* Calculate */
+  }
 }
 ```
 
 **Event Delegation**
+
 ```javascript
-buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-        // Handle click
-    });
+buttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    // Handle click
+  });
 });
 ```
 
 **LocalStorage Persistence**
+
 ```javascript
-localStorage.setItem('key', JSON.stringify(data));
-const data = JSON.parse(localStorage.getItem('key'));
+localStorage.setItem("key", JSON.stringify(data));
+const data = JSON.parse(localStorage.getItem("key"));
 ```
 
 ---
 
 ## 📊 Project Statistics
 
-| Metric | Value |
-|--------|-------|
-| **Total Projects** | 4 |
-| **HTML Files** | 4 |
-| **CSS Files** | 4 |
-| **JavaScript Files** | 1+ |
-| **Lines of Code** | 2,000+ |
-| **Animations** | 15+ |
-| **Responsive Breakpoints** | 3-5 per project |
-| **Browser Support** | 4+ modern browsers |
-| **Deployment Status** | ✅ All Live |
-| **Code Quality** | ⭐⭐⭐⭐⭐ |
-| **Documentation** | ⭐⭐⭐⭐⭐ |
+| Metric                     | Value              |
+| -------------------------- | ------------------ |
+| **Total Projects**         | 4                  |
+| **HTML Files**             | 4                  |
+| **CSS Files**              | 4                  |
+| **JavaScript Files**       | 1+                 |
+| **Lines of Code**          | 2,000+             |
+| **Animations**             | 15+                |
+| **Responsive Breakpoints** | 3-5 per project    |
+| **Browser Support**        | 4+ modern browsers |
+| **Deployment Status**      | ✅ All Live        |
+| **Code Quality**           | ⭐⭐⭐⭐⭐         |
+| **Documentation**          | ⭐⭐⭐⭐⭐         |
 
 ---
 
 ## ✨ What Makes This Repository Special
 
 ### 🎭 **Humanized Code**
+
 Every project features:
+
 - 😂 Funny, educational comments
 - 💬 Encouraging status messages
 - 🎨 Creative design choices
 - 🧠 Deep explanations of WHY
 
 ### 📚 **Comprehensive Documentation**
+
 - Setup guides for each project
 - Feature breakdowns
 - Concept explanations
@@ -377,6 +396,7 @@ Every project features:
 - Troubleshooting tips
 
 ### 🚀 **Production Ready**
+
 - Error handling implemented
 - Mobile optimized
 - Performance considered
@@ -385,6 +405,7 @@ Every project features:
 - Best practices followed
 
 ### 🎯 **Educational Value**
+
 - Learn by exploring
 - Understand concepts
 - Apply patterns
@@ -396,17 +417,20 @@ Every project features:
 ## 🔗 Important Links
 
 ### 📍 Internship Details
+
 - **Company:** Cognifyz Technologies
 - **Duration:** October 2025 - November 2025 (2 months)
 - **Location:** Nagpur, Maharashtra, India
 - **Role:** Web Development Intern
 
 ### 🌐 Live Projects
+
 - **Main Portfolio:** [https://ajinkyafurange.netlify.app/](https://ajinkyafurange.netlify.app/)
 - **My Profile:** [LinkedIn](https://www.linkedin.com/in/ajinkya-furange)
 - **GitHub Profile:** [github.com/Ajinkya-Furange-Patil](https://github.com/Ajinkya-Furange-Patil)
 
 ### 📧 Contact
+
 - **Email:** ajinkyafurange@zohomail.in
 - **Phone:** +91 8108171769
 - **Location:** Virar, Maharashtra, India
@@ -416,6 +440,7 @@ Every project features:
 ## 🎓 How to Use This Repository
 
 ### For Learning
+
 1. **Start with README files** - Read project documentation
 2. **Explore the code** - Study HTML, CSS, JavaScript
 3. **Understand concepts** - Learn design patterns
@@ -423,6 +448,7 @@ Every project features:
 5. **Experiment** - Modify & customize
 
 ### For Inspiration
+
 1. **View live demos** - See projects in action
 2. **Study design** - Modern UI/UX patterns
 3. **Analyze code** - Professional standards
@@ -430,6 +456,7 @@ Every project features:
 5. **Customize** - Make it your own
 
 ### For Skill Building
+
 1. **Read comments** - Understand every line
 2. **Modify functionality** - Add new features
 3. **Extend projects** - Build upon code
@@ -441,6 +468,7 @@ Every project features:
 ## 🏆 Key Achievements
 
 ### Technical Skills Demonstrated
+
 ✅ Full-stack web development (HTML, CSS, JavaScript)
 ✅ Responsive & mobile-first design
 ✅ Modern CSS techniques (Grid, Flexbox, Animations)
@@ -451,6 +479,7 @@ Every project features:
 ✅ Error handling & edge cases
 
 ### Professional Skills Demonstrated
+
 ✅ Clear project documentation
 ✅ Time management & deadline adherence
 ✅ Code organization & best practices
@@ -461,6 +490,7 @@ Every project features:
 ✅ Creative thinking
 
 ### Soft Skills Demonstrated
+
 ✅ Communication through code comments
 ✅ Attention to user experience
 ✅ Curiosity & continuous learning
@@ -473,18 +503,21 @@ Every project features:
 ## 🚀 Deployment Guide
 
 ### Deploy on Netlify (Recommended)
+
 1. Connect GitHub repository
 2. Select main branch
 3. Deploy with one click
 4. **Live in seconds!** ⚡
 
 ### Deploy on GitHub Pages
+
 1. Push to GitHub
 2. Enable Pages in settings
 3. Select main branch
 4. **Live in minutes!** 🎉
 
 ### Deploy on Vercel
+
 1. Connect GitHub repository
 2. Select project
 3. Deploy
@@ -495,6 +528,7 @@ Every project features:
 ## 📝 Each Project Includes
 
 ### Project Structure
+
 ```
 /project-name/
 ├── index.html           # Main HTML file
@@ -505,6 +539,7 @@ Every project features:
 ```
 
 ### Documentation Contents
+
 - 📖 Project overview
 - 🎯 Features breakdown
 - 🚀 Setup instructions
@@ -518,6 +553,7 @@ Every project features:
 ## 🎯 Future Enhancements
 
 ### Potential Additions
+
 - [ ] Dark mode toggle
 - [ ] Multi-language support
 - [ ] Advanced calculator functions
@@ -528,6 +564,7 @@ Every project features:
 - [ ] SEO optimization
 
 ### Learning Opportunities
+
 - [ ] Backend integration (Node.js, Express)
 - [ ] Database connection (MongoDB, MySQL)
 - [ ] Authentication system
@@ -542,6 +579,7 @@ Every project features:
 ## 📜 License
 
 This project repository is created for educational and portfolio purposes. Feel free to:
+
 - ✅ Learn from the code
 - ✅ Use it as reference
 - ✅ Modify and customize
@@ -555,6 +593,7 @@ This project repository is created for educational and portfolio purposes. Feel 
 ## 🤝 Contributing & Feedback
 
 ### Want to Improve?
+
 1. Fork the repository
 2. Create feature branch
 3. Make improvements
@@ -562,6 +601,7 @@ This project repository is created for educational and portfolio purposes. Feel 
 5. I'll review & merge! 🎉
 
 ### Have Suggestions?
+
 - 💬 Open an issue
 - 📧 Send email
 - 🤝 Connect on LinkedIn
@@ -580,6 +620,7 @@ This repository represents more than just code. It's:
 🚀 **A foundation** - Build future projects from here
 
 ### What Makes This Different:
+
 - 🎭 **Humanized approach** - Code with personality
 - 🎯 **Results-driven** - Functional & beautiful
 - 📖 **Well-documented** - Easy to understand
@@ -591,6 +632,7 @@ This repository represents more than just code. It's:
 ## 📞 Let's Connect!
 
 I'm always eager to:
+
 - 💬 Discuss web development
 - 🤝 Collaborate on projects
 - 🎓 Share knowledge & learn
@@ -598,6 +640,7 @@ I'm always eager to:
 - 🌐 Connect professionally
 
 **Feel free to reach out:**
+
 - **Email:** furangeaditya@gmail.com
 - **LinkedIn:** [Ajinkya Furange](https://www.linkedin.com/in/ajinkya-furange)
 - **GitHub:** [@Ajinkya-Furange-Patil](https://github.com/Ajinkya-Furange-Patil)
@@ -617,7 +660,6 @@ This CODSOFT internship has been an incredible journey of growth, learning and c
 Thank you for exploring this repository. If this work helps your learning, inspires your journey, or simply brings a smile to your face, then it has served its purpose. 🌟
 
 ---
-
 
 **Built with ❤️, endless ☕ and unwavering curiosity!**
 
@@ -646,4 +688,4 @@ Thank you for exploring this repository. If this work helps your learning, inspi
 
 ---
 
-*P.S. - If you found this helpful, don't forget to ⭐ the repository and share it with fellow developers! Your support means the world! 🌟*
+_P.S. - If you found this helpful, don't forget to ⭐ the repository and share it with fellow developers! Your support means the world! 🌟_
