@@ -6,7 +6,7 @@
 
 ## 📋 Project Overview
 
-**TechFlow** is a stunning, responsive landing page project designed to teach beginners HTML, CSS, and JavaScript while creating a real-world professional website. This project is **perfect for portfolio building** and demonstrates modern web design principles.
+**TechFlow** is a stunning, responsive landing page project designed to teach beginners HTML, CSS and JavaScript while creating a real-world professional website. This project is **perfect for portfolio building** and demonstrates modern web design principles.
 
 ### 🎯 What You'll Learn:
 
@@ -644,7 +644,7 @@ You now have a **production-ready landing page** that:
 ✅ Can be customized
 ✅ Demonstrates real skills
 
-**Now go build, deploy, and share it with the world! 🌍**
+**Now go build, deploy and share it with the world! 🌍**
 
 ---
 

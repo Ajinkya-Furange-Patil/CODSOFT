@@ -1,7 +1,7 @@
 # 🚀 CODSOFT Internship - Complete Project Repository
 - **Live Preview:** [CodSoft Internship](https://codsoft-ajinkya.netlify.app/)
 
-> **A Comprehensive Collection of Web Development Projects** | Built with Curiosity, Creativity, and Endless ☕
+> **A Comprehensive Collection of Web Development Projects** | Built with Curiosity, Creativity and Endless ☕
 
 ---
 
@@ -607,7 +607,7 @@ I'm always eager to:
 
 ## 🎉 Conclusion
 
-This CODSOFT internship has been an incredible journey of growth, learning, and creative expression. Every project in this repository is a testament to:
+This CODSOFT internship has been an incredible journey of growth, learning and creative expression. Every project in this repository is a testament to:
 
 ✨ **Dedication** - Putting heart into every line of code
 📚 **Learning** - Growing with each challenge
@@ -629,9 +629,9 @@ Special thanks to:
 
 ---
 
-**Built with ❤️, endless ☕, and unwavering curiosity!**
+**Built with ❤️, endless ☕ and unwavering curiosity!**
 
-**Let's build, learn, and create amazing things together! 🚀✨**
+**Let's build, learn and create amazing things together! 🚀✨**
 
 ---
 

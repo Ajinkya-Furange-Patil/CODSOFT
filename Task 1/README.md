@@ -1,6 +1,6 @@
 # 🎯 Personal Portfolio Website
 
-> A modern, professional portfolio website showcasing skills, projects, and experience. Built with HTML & CSS with a responsive design and smooth animations.
+> A modern, professional portfolio website showcasing skills, projects and experience. Built with HTML & CSS with a responsive design and smooth animations.
 
 ## 📋 Table of Contents
 
@@ -67,7 +67,7 @@ This is a professional personal portfolio website for **Ajinkya Furange**, built
 
 ### ✅ Projects Section
 
-6 featured projects with images, descriptions, and links:
+6 featured projects with images, descriptions and links:
 
 1. **Agricultural E-Commerce Platform**
 
@@ -83,7 +83,7 @@ This is a professional personal portfolio website for **Ajinkya Furange**, built
 3. **Patient Medical Payment Tracker**
 
    - Real-time payment updates and reminder alerts
-   - Built with HTML, CSS, and JavaScript
+   - Built with HTML, CSS and JavaScript
    - Smart and intuitive system
 
 4. **Weather Monitoring App**
@@ -423,7 +423,7 @@ In the `<head>` section of `index.html`, add:
 <!-- Meta Description -->
 <meta
   name="description"
-  content="Ajinkya Furange - Full Stack Web Developer specializing in React, Node.js, and Cloud Computing. Explore projects and skills."
+  content="Ajinkya Furange - Full Stack Web Developer specializing in React, Node.js and Cloud Computing. Explore projects and skills."
 />
 
 <!-- Open Graph Tags (for social media sharing) -->
@@ -623,7 +623,7 @@ Quick action items to launch your portfolio:
 
 ## 📝 License
 
-This portfolio project is provided as-is for personal use. Feel free to customize, modify, and adapt it for your needs.
+This portfolio project is provided as-is for personal use. Feel free to customize, modify and adapt it for your needs.
 
 ### Credits
 
