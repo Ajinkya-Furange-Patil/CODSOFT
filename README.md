@@ -40,7 +40,7 @@ Your professional showcase website featuring:
 **Technologies:** HTML5 | CSS3 | JavaScript | Font Awesome
 **Key Concepts:** Responsive Design | CSS Grid/Flexbox | Smooth Scrolling | Mobile Optimization
 
-**Deployed:** [Live Portfolio](https://codsoft-ajinkya.netlify.app/task 1)
+**Deployed:** [Live Portfolio](https://codsoft-ajinkya.netlify.app/task%201)
 
 ---
 
